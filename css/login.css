@@ -1,0 +1,92 @@
+div{
+  display:block;
+}
+.container{
+  height:530px;
+  width:840px;
+  background-color:#651FFF;
+  border-radius: 8px;
+  padding: 2rem;
+  margin-left:8rem;
+  display: inline-flex;
+  /* background-color: cyan; */
+  
+}
+.image{
+  height:490px;
+  width:770px;
+  border-radius: 8px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url('https://images.unsplash.com/photo-1416163119970-b823693d67e7?auto=format&fit=crop&w=782&q=80');
+  margin:auto;
+  opacity:0.8;
+  padding:5px;
+  
+}
+.opencode{
+   float:left;
+  margin-top:-52%;
+  margin-left:20px;
+  font-size:20px;
+  font-family:sans serif;
+  color:#004D40;
+  
+}
+.login{
+  height:400px;
+  width:300px;
+  background-color:#E0F2F1;
+  opacity:0.8;
+  border-radius: 8px;
+  margin-top:5%;
+  margin-left:400px;
+  z-index: 1;
+  box-shadow: 0px 3px 6px black;
+}
+.logina{
+  height:80px;
+  width:300px;
+  background-color:#3F51B5;
+  border-radius: 8px;
+  margin-top:5%;
+  z-index: 1;
+}
+.a{
+  height:200px;
+  width:300px;
+  margin-top:-33%;
+  background-color:#3F51B5;
+  -webkit-clip-path: ellipse(20% 8% at 50% 50%);
+clip-path: ellipse(20% 8% at 50% 50%);
+}
+.username{
+  width:60%;
+  
+  box-sizing: border-box;
+  border-style: solid;
+  border-color:#546E7A;
+   padding:10px;
+}
+.password{
+  width:60%;
+  box-sizing: border-box;
+  border-style: solid;
+  border-color:#546E7A;
+  padding:10px;
+}
+.text{
+  text-align:center;
+  padding:20px;
+  color:white;
+  font-family:"Times New Roman", Times, serif;
+  font-size:30px;
+}
+.submit{
+  background-color:#004D40;
+  width:30%;
+  padding:5px;
+  font-family:white;
+  font-weight: bold;
+    font-size:18px;
+  color:white;
+  box-shadow: 0px 3px 6px #fff;
+}

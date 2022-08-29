@@ -1,0 +1,11 @@
+{
+  "name": "bootstrap-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "node-sass -o csss scss   -w"
+  },
+  "author": "",
+  "license": "ISC"
+}

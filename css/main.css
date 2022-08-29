@@ -1,0 +1,56 @@
+.my_btn{
+  padding: 0.8rem 2.2rem;
+  margin: 0.2rem;
+  background:	red;
+  line-height: 1rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: white;
+  border: none;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  border-radius: 1.2rem;
+  outline: none;
+}
+.my_btn:hover{
+  background-color: white;
+  box-shadow: 0rem 1.5rem 2rem rgba(255, 255, 157, 0.4);
+  color: black;
+  transform: translateY(-0.3rem);
+}
+
+.navbar-brand{
+  padding: 0.8rem 2.2rem;
+  margin: 0.4rem;
+  line-height: 1rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: white;
+  border: none;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  border-radius: 1.2rem;
+  outline: none;
+}
+
+
+.nav-item{
+  line-height: 1rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: white;
+  
+}
+
+.nav-item:hover{
+  text-decoration-color:red ;
+  box-shadow: 0rem 1.5rem 2rem rgba(255, 255, 157, 0.4);
+  transform: translateY(-0.2rem);
+  border-radius: 1.2rem;
+}
+
